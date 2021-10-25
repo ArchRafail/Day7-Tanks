@@ -9,8 +9,19 @@ namespace Day7_Tanks_
         static string Name(string type)
         {
             string name;
-            Console.WriteLine($"Dear user, give a name for tank {type}: ");
+            Console.WriteLine($"Dear user, give a name for a tank {type}: ");
             name = Console.ReadLine();
+            try
+            {
+                if (name == "" || name == " ")
+                    throw new NullException();
+            }
+            catch (NullException ne)
+            {
+                Console.WriteLine(ne.Message);
+                Console.WriteLine("The program will assign a name \"No name\" for the tank.\n\n");
+                name = "No name";
+            }
             return name;
         }
         static void Main(string[] args)
