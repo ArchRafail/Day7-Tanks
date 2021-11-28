@@ -1,0 +1,5 @@
+C:\Users\ROMAN\source\repos\MyClassLib\MyClassLib\bin\Debug\MyClassLib.dll
+C:\Users\ROMAN\source\repos\MyClassLib\MyClassLib\bin\Debug\MyClassLib.pdb
+C:\Users\ROMAN\source\repos\MyClassLib\MyClassLib\obj\Debug\MyClassLib.csproj.CoreCompileInputs.cache
+C:\Users\ROMAN\source\repos\MyClassLib\MyClassLib\obj\Debug\MyClassLib.dll
+C:\Users\ROMAN\source\repos\MyClassLib\MyClassLib\obj\Debug\MyClassLib.pdb
